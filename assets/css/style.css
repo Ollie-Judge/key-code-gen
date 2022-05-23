@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.conatinerContainer {
+  margin-top: 6.5%;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.titleContainer {
+  flex-direction: row;
+  padding-bottom: 50px;
+  border: 2px solid black;
+}
+
+.container {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.card {
+  border: 2px solid black;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h4 {
+  margin-bottom: 15px;
+}
